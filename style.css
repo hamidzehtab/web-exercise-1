@@ -93,14 +93,14 @@ a {
 
 
 
-#medi {
+#media {
     display: flex;
     width: 100%;
     padding: 50px 0;
     align-items: center;
 }
 
-#medi > * {
+#media > * {
     width: 50%;
 }
 
@@ -120,6 +120,18 @@ a {
 
 
 
+@media screen and (max-width: 992px) {
+    #media {
+        flex-direction: column-reverse;
+    }
+    #media > * {
+        width: 80%;
+    }
+
+    #media_image {
+        text-align: center;
+    }
+}
 
 
 
