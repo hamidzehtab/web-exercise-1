@@ -12,7 +12,7 @@ a {
 #header {
     width: 100%;
     background-color: #FFD180;
-    padding: 20px 0;
+    padding: 45px 0;
     /* height: calc( - 40px); */
 }
 
@@ -30,6 +30,7 @@ a {
 
 #logo {
     color: #3C227C;
+    font-size: 30px;
 }
 
 #nav_menu ul {
@@ -110,7 +111,7 @@ a {
     border-radius: 10px;
     box-shadow: 2px 2px 10px #f9e9f1;
     padding: 30px 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .media_texts:first-of-type {
@@ -118,6 +119,58 @@ a {
     background-color: #4F55DD;
 }
 
+#media_image img {
+    width: 60%;
+}
+
+
+#scratch {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+#scratch > * {
+    width: 50%;
+}
+
+#scratch_img {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#scratch_img img {
+    width: 55%;
+}
+
+#scratch_content > * {
+    margin-bottom: 30px;
+}
+
+#scratch_content_img {
+    width: 80%;
+    text-align: right;
+}
+
+#scratch_semi_title {
+    font-size: 19px;
+    font-weight: bold;
+    color: #2B3436;
+}
+
+#scratch_title {
+    font-size: 40px;
+    color: #2B3436;
+    margin-bottom: 50px;
+}
+
+#scratch_content p:last-child {
+    color: #aaaaaa;
+    width: 50%;
+    font-size: 18px;
+}
 
 
 @media screen and (max-width: 992px) {
@@ -130,6 +183,25 @@ a {
 
     #media_image {
         text-align: center;
+    }
+
+    #scratch {
+        flex-direction: column;
+    }
+
+    #scratch > * {
+        width: 80%;
+    }
+
+    #scratch_content {
+        text-align: center;
+    }
+
+    #scratch_content p:last-child {
+        margin: auto;
+    }
+    #scratch_img {
+        width: 100%;
     }
 }
 
@@ -146,9 +218,6 @@ a {
 }
 
 @media screen and (max-width: 800px) {
-    /* #top_section_content h2 {
-        font-size: 25px !important;
-    } */
     #top_header {
         flex-direction: column-reverse;
         padding-top: 100px ;
@@ -186,6 +255,17 @@ a {
 
     #nav_menu ul li {
         padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    #scratch >* {
+        width: 95%;
+    }
+
+    #scratch_content p:last-child {
+        margin: auto;
+        width: 100%;
     }
 }
 
