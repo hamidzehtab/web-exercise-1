@@ -108,7 +108,7 @@ ul {
 #media {
     display: flex;
     width: 100%;
-    padding: 50px 0;
+    padding: 200px 0;
     align-items: center;
 }
 
@@ -140,7 +140,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding: 20px 0;
+    background-color: #FFA2AA;
 }
 
 #scratch > * {
@@ -158,6 +159,7 @@ ul {
 
 #scratch_content > * {
     margin-bottom: 30px;
+    color: white !important;
 }
 
 #scratch_content_img {
@@ -184,7 +186,7 @@ ul {
 }
 
 #design {
-    padding: 100px 0;
+    padding: 200px 0;
     width: 100%;
 }
 
@@ -233,7 +235,7 @@ ul {
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 20px 30px;
+    padding: 25px 30px;
     font-size: 20px;
     width: calc(100% - 60px);
     border-radius: 0 0 15px 15px;
@@ -295,11 +297,11 @@ footer > * {
 
 #footer_text h2 a{
     color: #3C227C;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #footer_text h2 {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 #footer_text p {
@@ -435,6 +437,7 @@ footer > * {
 
     #scratch {
         flex-direction: column;
+        /* background-color: #FFA2AA; */
     }
 
     #scratch > * {
